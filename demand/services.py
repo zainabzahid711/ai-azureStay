@@ -1,5 +1,6 @@
 from .models.prophet_model import DemandProphet
 from typing import List, Dict
+from demand.models.prophet_model import DemandProphet
 
 class DemandService:
     def __init__(self):
