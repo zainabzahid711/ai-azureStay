@@ -2,7 +2,7 @@ from fastapi import FastAPI, APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List
 from demand.routers import router as demand_router
-from demand.models.prophet_model import DemandProphet
+from demand.models.prophet_train import DemandProphet
 import logging
 
 # Initialize FastAPI app
